@@ -15,5 +15,5 @@ def get_interger(prompt):
     res = int(input(prompt));
     return res
 
-coin = get_interger("동전으로 교환하고자 하는 금액은? ");
-exchange(coin);
+coin_input = get_interger("동전으로 교환하고자 하는 금액은? ");
+exchange(coin_input);
